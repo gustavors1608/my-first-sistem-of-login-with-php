@@ -6,9 +6,6 @@
 //sitema de login com consulta em arquivo txt , gravacao e sistema de procura com identificacao de erros   //
 //como falta de preenchimento do formulario...nome ja repetido no arquivo etc                              //
 //=========================================================================================================//
-   //$semhtml strip_tags($texto, 'ignorar tal tag');
-   //$semhtml = htmlspecialchars($texto);
-   //desenvolver um sistema de login e transmição de dados privado para cada usuario por meio de uma especie de token
    error_reporting(0);
 
    $name       = $_POST['name'];
